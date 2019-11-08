@@ -200,3 +200,9 @@ nameTitleLookup.updateValue(nil, forKey: "Patrick")
 nameTitleLookup["Ray"] = nil
 print(nameTitleLookup)
 
+
+let voidClosure: () -> () = {
+    print("Swift Apprentice is awesome!")
+}
+voidClosure()
+
