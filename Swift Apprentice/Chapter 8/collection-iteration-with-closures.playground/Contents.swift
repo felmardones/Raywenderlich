@@ -3,7 +3,7 @@ import UIKit
 //: ** Mini Exercises
 // **1-1**
 let names = ["Luz", "Luis", "Myrna", "Felipe", "Francisca", "Matías"]
-let namesPrint = names.reduce(""){
+let namesPrint = names.reduce(" "){
     $0 + " " + $1
 }
 print(namesPrint)
