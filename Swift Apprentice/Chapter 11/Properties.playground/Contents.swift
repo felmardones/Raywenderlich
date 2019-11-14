@@ -50,3 +50,57 @@ struct LightBulb {
 var lb = LightBulb()
 lb.current = 30
 print(lb)
+
+
+//: ** Challenges **
+//:** 1-1 **
+
+struct IceCream {
+  lazy var name: String = "Felipe"
+    lazy var ingredients: [String] = {
+        return ["Onion", "Potato", "Garlic"]
+    }()
+    init(name: String) {
+      self.name = name
+    }
+}
+
+//: ** 1-2 **
+struct Car {
+    let make: String
+    let color: String
+    var fuel : FuelTank
+}
+
+struct FuelTank {
+    static let maxLevel : Double = 1.0
+    static let minLevel : Double = 0.0
+    
+    var lowFuel : Bool = false
+    var level: Double{ // decimal percentage between 0 and 1
+        didSet{
+            if level > FuelTank.maxLevel{
+                level = 1
+            }else if level < 0{
+                level = 0
+            }
+        }
+        willSet{
+            if newValue <= 0.1{
+                print("low fuel")
+                lowFuel = true
+            }else{
+                print("normal fuel")
+                lowFuel = false
+            }
+        }
+    }
+}
+var fuel = FuelTank(level: 1)
+var car = Car(make: "Dont know what means make", color: "Green", fuel: fuel)
+car.fuel.level = 0.02
+print(car.fuel.lowFuel)
+car.fuel.level = 0.4
+print(car.fuel.lowFuel)
+car.fuel.level = 0.1
+print(car.fuel.lowFuel)
