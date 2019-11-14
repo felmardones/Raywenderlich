@@ -378,5 +378,8 @@ board.attackPlayer(attack: attack1, player: player2)
 board.attackPlayer(attack: attack1, player: player2)
 board.printShips()
 
-//The challenge it to report if the ship is hit, so with the example above, if the attack is in the origin plus the lenght(coor.z), it's hit, then the lenght it's coor.z - 1. This can be improve, like if it hit some X point, that point can't be hit again, and another stuff but i end the challenge with this, but it's good idea for making a game.
+//The challenge it to report if the ship is hit, so with this code can complete the challenges. - If the attack is in the origin plus the lenght(coor.z), it's hit, then the lenght it's coor.z - 1. This can be improve, like if the attack hit some point of the hsip, that point can't be hit again.
+
+
+
 
