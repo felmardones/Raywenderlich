@@ -47,7 +47,7 @@ arr.map{
 
 
 //** Challenge **
-//I try to do something more "real"(big big big, really big quotes), than just creating homogeneous arrays like [Feedeable] or  [Cageable] of pets, i think it's more scalable to create a pet shop class who have an array of animal(protocol), where each animal have their own properties set, like bird canFly, but can't swim. So, if i have an array of animal, i can loop through and get only the animal who canFly, and all of them have to be caged(i create a caged struct just for fun), or walked, etc...
+//I try to do something more "real"(big big big, really big quotes), than just creating homogeneous arrays like [Feedeable] or [Cageable] of pets, i think it's more scalable to create a pet shop class who have an array of animal(protocol), where each animal have their own properties set, like bird canFly, but can't swim. So, if i have an array of animal, i can loop through and get only the animal who canFly, and all of them have to be caged(i create a caged struct just for fun), or walked, etc...
 
 protocol Animal{
     var name : String { get }
