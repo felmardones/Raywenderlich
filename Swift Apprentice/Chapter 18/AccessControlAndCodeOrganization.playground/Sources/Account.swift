@@ -13,7 +13,7 @@ public typealias Dollars = Double
 /// A U.S. Dollar based "basic" account.
 open class BasicAccount: Account {
     
-    private(set) var balance: Dollars = 0.0
+    public private(set) var balance: Dollars = 0.0
     
     public init(){}
     

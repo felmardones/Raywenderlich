@@ -43,7 +43,7 @@ public class CheckingAccount: BasicAccount {
 }
 
 private extension CheckingAccount {
-    
+
     func inspectForFraud(with checkNumber: Int) -> Bool {
         return issuedChecks.contains(checkNumber)
     }
@@ -56,6 +56,12 @@ private extension CheckingAccount {
     
 }
 
+
+extension CheckingAccount: CustomStringConvertible {
+  public var description: String {
+    return "Checking Balance: $\(balance)"
+  }
+}
 
 
 
