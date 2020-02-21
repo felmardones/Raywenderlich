@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F5287BEC-27FA-424F-862C-FBDC075934E1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C80A1B22-52C7-446B-A731-BCB7C53467F5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncClosuresMemoryManagment/main.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "C80A1B22-52C7-446B-A731-BCB7C53467F5 - 730da0eb2b5278a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "AsyncClosuresMemoryManagment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipe/Documents/Estudios/iOS/Exercises/Swift%20Apprentice/Chapter%2023/AsyncClosuresMemoryManagment/AsyncClosuresMemoryManagment/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "297">
+               </Location>
+               <Location
+                  uuid = "C80A1B22-52C7-446B-A731-BCB7C53467F5 - 70315092b6c7513e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Swift.Int in AsyncClosuresMemoryManagment"
+                  moduleName = "AsyncClosuresMemoryManagment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipe/Documents/Estudios/iOS/Exercises/Swift%20Apprentice/Chapter%2023/AsyncClosuresMemoryManagment/AsyncClosuresMemoryManagment/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "104"
+                  endingLineNumber = "104"
+                  offsetFromSymbolStart = "9">
+               </Location>
+               <Location
+                  uuid = "C80A1B22-52C7-446B-A731-BCB7C53467F5 - dbd7ff390e75ab6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int) -&gt; () in AsyncClosuresMemoryManagment"
+                  moduleName = "AsyncClosuresMemoryManagment"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/felipe/Documents/Estudios/iOS/Exercises/Swift%20Apprentice/Chapter%2023/AsyncClosuresMemoryManagment/AsyncClosuresMemoryManagment/main.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
